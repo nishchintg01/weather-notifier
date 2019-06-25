@@ -1,10 +1,7 @@
 import requests
-import json
-import subprocess
 import notify2
-import pprint
 openweatherapi='http://api.openweathermap.org/data/2.5/weather?'
-apikey='APPID=09a589b23d3e65029f00268d33badda4'
+apikey='APPID=YOUR-API-TOKEN'
 find_addr='https://ipinfo.io/'
 
 def find_ip(url):
